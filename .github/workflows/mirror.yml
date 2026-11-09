@@ -1,11 +1,12 @@
 # Originally forked from: https://github.com/google/mirror-branch-action
 # Current repo: https://github.com/AndrewRadev/mirror-branch-action
 
-on:
-  push:
-    branches:
-      - 'main'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - 'main'
+# 
 jobs:
   mirror_job:
     runs-on: ubuntu-latest
